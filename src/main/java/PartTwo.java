@@ -5,10 +5,6 @@ public class PartTwo {
     Database2 database;
     String errorMesage;
 
-
-    PartTwo(){
-        database = new Database2();
-    }
     PartTwo(Database2 newDatabase) {database = newDatabase;}
 
     String login(String username, String password){

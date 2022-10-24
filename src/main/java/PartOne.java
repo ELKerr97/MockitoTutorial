@@ -4,7 +4,6 @@ public class PartOne {
         database = new Database();
     }
 
-
     //returns the uuid of the user and creates a user if not already present
     String login(String username, String password){
         final String NO_USER = "";
